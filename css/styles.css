@@ -25,25 +25,34 @@ body{
   width: 100%;
   min-height : 400px;
   min-height : 100vh;
+  padding-top: 70px;
+  padding-bottom: 70px;
   padding-top: 7vh;
   padding-bottom: 7vh;
 }
 
+a{
+  text-decoration: none;
+  color: #d9403e;
+}
 
 .page:nth-child(even){
   background-color: #d9403e;
   color: white;  
 }
 
-.page:nth-child(odd) a{
-  color: #d9403e;
+.page:nth-child(even) a{
+  color: black;
 }
 
 header{
+  padding-top: 90px;
   padding-top: 25vh;
 }
 
 .page-text{
+  padding-left: 100px;
+  padding-right: 100px;
   padding-left: 20vh;
   padding-right: 20vh;
 }
@@ -70,11 +79,6 @@ header{
   text-align: center;
 }
 
-a{
-  text-decoration: none;
-  color: black;
-}
-
 .fb-page{
   width: 100%;
 }
@@ -94,6 +98,7 @@ a{
 }
 
 footer{
+	padding: 20px 100px;
 	padding: 10vh 20vh;
 	font-size: 0.6rem;
 }
