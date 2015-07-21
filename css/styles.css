@@ -4,7 +4,7 @@ html {
   box-sizing: border-box;
   font-family: verdana;
   font-size: 20px;
-  font-size: min(5vh, 5vw);
+  font-size: 5vmin;
   text-align: center;
 }
 p, ul { 
